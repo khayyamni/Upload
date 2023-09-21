@@ -1,0 +1,89 @@
+#drop-elem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    background-color: rebeccapurple;
+    float: right;
+}
+
+.drags {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+.drag{
+    width: 100px;
+    height: 100px;
+}
+
+
+#elem1{
+    background-color: orange;
+}
+
+
+#elem2{
+    background-color: rgba(0, 128, 128, 0.426);
+}
+
+
+
+#elem3{
+    background-color: gray;
+}
+
+
+
+#elem4{
+    background-color: teal;
+}
+
+
+#elem5{
+    background-color: blue;
+}
+
+
+/* ............... */
+
+
+img{
+    width: 150px;
+    height: 200px;
+}
+
+
+.icon{
+    width: 400px;
+    height: 400px;
+    color: teal;
+    background-color: rgba(128, 128, 128, 0.266);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.icon i{
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.box1{
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+}
+
+
+.box2{
+    background-color: magenta;
+    width: 200px;
+    height: 200px;
+}

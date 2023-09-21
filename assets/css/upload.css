@@ -1,0 +1,22 @@
+img {
+    width: 150px;
+    height: 200px;
+}
+
+
+.icon {
+    width: 400px;
+    height: 400px;
+    color: teal;
+    background-color: rgba(128, 128, 128, 0.266);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.icon i {
+    font-size: 70px;
+    cursor: pointer;
+}
